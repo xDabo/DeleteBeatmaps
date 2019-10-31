@@ -1,0 +1,24 @@
+﻿<Window x:Class="DeleteBeatmaps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeleteBeatmaps"
+        mc:Ignorable="d"
+        Title="Beatmap Deleter" Height="199.008" Width="525.776">
+    <Grid Margin="0,0,-8,-6" Height="174" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="159*"/>
+            <ColumnDefinition Width="104*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Select Beatmaps Folder!" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="157" Name="FileDialogButton" Click="FileDialogButton_Click" Height="82"/>
+        <CheckBox Content="Standard" HorizontalAlignment="Left" Margin="172,47,0,0" VerticalAlignment="Top" Name="standardCheckBox" IsEnabled="False"/>
+        <CheckBox Content="Taiko" HorizontalAlignment="Left" Margin="172,67,0,0" VerticalAlignment="Top" Name="taikoCheckBox" IsEnabled="False"/>
+        <CheckBox Content="Catch The Beat" HorizontalAlignment="Left" Margin="172,87,0,0" VerticalAlignment="Top" Name="ctbCheckBox" IsEnabled="False"/>
+        <CheckBox Content="Mania" HorizontalAlignment="Left" Margin="172,107,0,0" VerticalAlignment="Top" Name="maniaCheckBox" IsEnabled="False"/>
+        <Button Content="DELETE ALL SELECTED FILES" HorizontalAlignment="Left" Margin="276,41,0,0" VerticalAlignment="Top" Width="225" Name="deleteButton" Click="deleteButton_Click" IsEnabled="False" Height="82" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="53,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="448" Name="pathTextBox" IsReadOnly="True" Grid.ColumnSpan="2"/>
+        <Label Content="Path:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.755,0.907" Width="38"/>
+        <ProgressBar HorizontalAlignment="Left" Height="23" Margin="10,128,0,0" VerticalAlignment="Top" Width="491" Name="statusProgressBar" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>

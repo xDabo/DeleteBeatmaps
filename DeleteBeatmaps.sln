@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteBeatmaps", "DeleteBeatmaps\DeleteBeatmaps.csproj", "{313BC4CA-37B8-4F33-814D-D0E9671E9E19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{313BC4CA-37B8-4F33-814D-D0E9671E9E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313BC4CA-37B8-4F33-814D-D0E9671E9E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313BC4CA-37B8-4F33-814D-D0E9671E9E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313BC4CA-37B8-4F33-814D-D0E9671E9E19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7006479C-2567-4668-8D40-6B22456C807B}
+	EndGlobalSection
+EndGlobal
