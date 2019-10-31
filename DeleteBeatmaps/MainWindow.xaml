@@ -16,9 +16,10 @@
         <CheckBox Content="Taiko" HorizontalAlignment="Left" Margin="172,67,0,0" VerticalAlignment="Top" Name="taikoCheckBox" IsEnabled="False"/>
         <CheckBox Content="Catch The Beat" HorizontalAlignment="Left" Margin="172,87,0,0" VerticalAlignment="Top" Name="ctbCheckBox" IsEnabled="False"/>
         <CheckBox Content="Mania" HorizontalAlignment="Left" Margin="172,107,0,0" VerticalAlignment="Top" Name="maniaCheckBox" IsEnabled="False"/>
-        <Button Content="DELETE ALL SELECTED FILES" HorizontalAlignment="Left" Margin="276,41,0,0" VerticalAlignment="Top" Width="225" Name="deleteButton" Click="deleteButton_Click" IsEnabled="False" Height="82" Grid.ColumnSpan="2"/>
+        <Button Content="DELETE ALL SELECTED FILES" HorizontalAlignment="Left" Margin="276,41,0,0" VerticalAlignment="Top" Width="225" Name="deleteButton" Click="deleteButton_Click" IsEnabled="False" Height="41" Grid.ColumnSpan="2"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="53,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="448" Name="pathTextBox" IsReadOnly="True" Grid.ColumnSpan="2"/>
         <Label Content="Path:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.755,0.907" Width="38"/>
         <ProgressBar HorizontalAlignment="Left" Height="23" Margin="10,128,0,0" VerticalAlignment="Top" Width="491" Name="statusProgressBar" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="276,87,0,0" VerticalAlignment="Top" Width="225" Grid.ColumnSpan="2" Height="36"/>
     </Grid>
 </Window>
